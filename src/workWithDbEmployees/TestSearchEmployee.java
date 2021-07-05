@@ -24,8 +24,6 @@ public class TestSearchEmployee {
         list.add(employee1);
         list.add(employee2);
         list.add(employee3);
-
-
 //        list.add(employee4);
 
 //        for (Employee employee: list) {
