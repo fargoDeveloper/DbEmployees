@@ -19,7 +19,7 @@ public class UtilsForSearch {
     public List<Employee> searchByName(String name, List<Employee> listEmployees) {
         List<Employee> searchEmployee = new ArrayList<>();
         for (Employee employee : listEmployees) {
-            if (Objects.equals(employee.getId(), name)) {
+            if (Objects.equals(employee.getName(), name)) {
                 searchEmployee.add(employee);
             }
         }
@@ -29,7 +29,7 @@ public class UtilsForSearch {
     public List<Employee> searchBySurname(String surname, List<Employee> listEmployees) {
         List<Employee> searchEmployee = new ArrayList<>();
         for (Employee employee : listEmployees) {
-            if (Objects.equals(employee.getId(), surname)) {
+            if (Objects.equals(employee.getSurname(), surname)) {
 //                if (employee.getSurname() != null && employee.getSurname().equals(surname)) {
                 searchEmployee.add(employee);
             }
