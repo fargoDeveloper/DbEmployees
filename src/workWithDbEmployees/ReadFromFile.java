@@ -11,10 +11,10 @@ public class ReadFromFile {
     /*
      * Read information from a file
      */
-    static List<String> loadFromFile(String fileName) {
+    static ArrayList<String> loadFromFile(String fileName) {
 
         String line;
-        List<String> listValuesFieldsEmployees = new ArrayList<>();
+        ArrayList<String> listValuesFieldsEmployees = new ArrayList<>();
 
         try (FileReader fileReader = new FileReader(fileName);
              BufferedReader reader = new BufferedReader(fileReader)) {

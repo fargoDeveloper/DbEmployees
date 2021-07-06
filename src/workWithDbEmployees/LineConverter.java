@@ -1,18 +1,18 @@
 package workWithDbEmployees;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
-public class ConvertLine {
+public class LineConverter {
     /*
-     * Extract only words
+     * Extract only values
      */
-    static List<String> extractValues(String linesFromFile) {
+    static ArrayList<String> extractValues(String linesFromFile) {
 
         String line = linesFromFile;
-        List<String> listValuesFieldsEmployees = new LinkedList<>();
-        List<String> convertedList;
+        ArrayList<String> listValuesFieldsEmployees = new ArrayList<>();
+        List<String> convertedList = new ArrayList<>();
 
         // Remove spaces at the beginning and end of the line
         line = line.trim();
