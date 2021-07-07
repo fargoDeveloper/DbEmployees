@@ -4,14 +4,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 public class ReadFromFile {
     /*
-     * Read information from a file
+     * Reading information from the file
      */
-    static ArrayList<String> loadFromFile(String fileName) {
+    public ArrayList<String> loadFromFile(String fileName) {
 
         String line;
         ArrayList<String> listValuesFieldsEmployees = new ArrayList<>();

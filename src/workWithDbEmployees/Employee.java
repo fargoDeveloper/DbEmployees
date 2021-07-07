@@ -1,5 +1,9 @@
 package workWithDbEmployees;
 
+/*
+    Creating Employee class with all the required fields.
+ */
+
 public class Employee {
     private Integer id;
     private String name;
@@ -25,7 +29,6 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
-
 
     public Integer getId() {
         return id;

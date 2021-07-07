@@ -4,6 +4,10 @@ import org.junit.Test;
 import java.util.*;
 import static org.junit.Assert.assertEquals;
 
+/*
+    Creating test cases for the database search.
+ */
+
 public class TestSearchEmployee {
 
     UtilsForSearch utilsForSearch = new UtilsForSearch();
