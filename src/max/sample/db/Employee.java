@@ -1,9 +1,8 @@
-package workWithDbEmployees;
+package max.sample.db;
 
-/*
-    Creating Employee class with all the required fields.
+/**
+ * This is class have information about employee
  */
-
 public class Employee {
     private Integer id;
     private String name;

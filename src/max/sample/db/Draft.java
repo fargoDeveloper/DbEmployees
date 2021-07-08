@@ -1,4 +1,4 @@
-package workWithDbEmployees;
+package max.sample.db;
 
 public class Draft {
 
